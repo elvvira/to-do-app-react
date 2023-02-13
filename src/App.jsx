@@ -1,5 +1,11 @@
+import Input from "./components/input/Input";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<form >
+			<Input />
+		</form>
+		)
 };
 
 export default App;
